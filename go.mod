@@ -1,6 +1,6 @@
 module github.com/containerd/containerd/v2
 
-go 1.22.0
+go 1.23
 
 require (
 	dario.cat/mergo v1.0.1
@@ -66,18 +66,18 @@ require (
 	go.etcd.io/bbolt v1.3.11
 	go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc v0.56.0
 	go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp v0.56.0
-	go.opentelemetry.io/otel v1.31.0
+	go.opentelemetry.io/otel v1.34.0
 	go.opentelemetry.io/otel/exporters/otlp/otlptrace v1.31.0
 	go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracegrpc v1.31.0
 	go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracehttp v1.31.0
-	go.opentelemetry.io/otel/sdk v1.31.0
-	go.opentelemetry.io/otel/trace v1.31.0
+	go.opentelemetry.io/otel/sdk v1.34.0
+	go.opentelemetry.io/otel/trace v1.34.0
 	golang.org/x/mod v0.22.0
-	golang.org/x/sync v0.10.0
-	golang.org/x/sys v0.28.0
-	google.golang.org/genproto/googleapis/rpc v0.0.0-20241021214115-324edc3d5d38
-	google.golang.org/grpc v1.68.1
-	google.golang.org/protobuf v1.35.2
+	golang.org/x/sync v0.11.0
+	golang.org/x/sys v0.30.0
+	google.golang.org/genproto/googleapis/rpc v0.0.0-20250218202821-56aae31c358a
+	google.golang.org/grpc v1.72.2
+	google.golang.org/protobuf v1.36.5
 	k8s.io/apimachinery v0.31.3
 	k8s.io/client-go v0.31.3
 	k8s.io/component-base v0.31.3
@@ -131,16 +131,17 @@ require (
 	github.com/x448/float16 v0.8.4 // indirect
 	github.com/xrash/smetrics v0.0.0-20240521201337-686a1a2994c1 // indirect
 	go.opencensus.io v0.24.0 // indirect
-	go.opentelemetry.io/otel/metric v1.31.0 // indirect
+	go.opentelemetry.io/auto/sdk v1.1.0 // indirect
+	go.opentelemetry.io/otel/metric v1.34.0 // indirect
 	go.opentelemetry.io/proto/otlp v1.3.1 // indirect
-	golang.org/x/crypto v0.31.0 // indirect
+	golang.org/x/crypto v0.33.0 // indirect
 	golang.org/x/exp v0.0.0-20241108190413-2d47ceb2692f // indirect
-	golang.org/x/net v0.30.0 // indirect
-	golang.org/x/oauth2 v0.23.0 // indirect
-	golang.org/x/term v0.27.0 // indirect
-	golang.org/x/text v0.21.0 // indirect
+	golang.org/x/net v0.35.0 // indirect
+	golang.org/x/oauth2 v0.26.0 // indirect
+	golang.org/x/term v0.29.0 // indirect
+	golang.org/x/text v0.22.0 // indirect
 	golang.org/x/time v0.3.0 // indirect
-	google.golang.org/genproto/googleapis/api v0.0.0-20241007155032-5fefd90f89a9 // indirect
+	google.golang.org/genproto/googleapis/api v0.0.0-20250218202821-56aae31c358a // indirect
 	gopkg.in/inf.v0 v0.9.1 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
